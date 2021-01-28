@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	color: blue;
+	font-size: 1.75em;
+	text-align: center;
+}
+
+.menu-container {
+	float: left;
+}
+
+.menu-entry {
+	margin: 3px;
+	position: relative;
+  border: 1px solid black;
+  background-color: #8FC0D8;
+}
+
+/* I had to use float:right. If I try with right: 0px it does not work, why? */
+.menu-type {
+	margin-top: -1px;
+	margin-right: -1px;
+	border: 1px solid black;
+  padding-left: 3%;
+  padding-right: 3%;
+	text-align: center;
+	font-size: 1.25em;
+	float: right;
+}
+
+
+/* Clear:right since the element before has float:right and I want to go to a new line; */
+.menu-description{
+    clear: right; 
+    padding: 1%;
+}
+
+#chicken{
+	background-color: #8FD8AB;
+}
+
+#beef{
+	background-color: #D3C786
+}
+
+#sushi{
+	background-color: #AC86D3
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-2 {
+    width: 16.666%
+  }
+  .col-lg-4 {
+    width: 33.332%
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  .col-md-3 {
+    width: 25%
+  }
+  .col-md-6 {
+    width: 50%
+  }
+  .col-md-12 {
+    width: 100%
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-6 {
+    width: 50%
+  }
+  .col-sm-12 {
+    width: 100%
+  }
+}
