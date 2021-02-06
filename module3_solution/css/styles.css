@@ -1,0 +1,52 @@
+.navbar-brand > span{
+	color: black;
+}
+
+
+#collapsable-nav {
+	width: 100%;
+	text-align: center;
+}
+
+
+#navbar, #nav-list > li {
+	border: solid grey;
+
+}
+
+#navbar{
+	background-color: #1A9A98;
+    border-width: 0 0 1px 0;
+}
+
+#nav-list > li{
+	margin-top: -1px;
+	background-color: white;
+    border-width: 1px 0 0 0;
+}
+
+#nav-list > li > a > span{
+	color: black;
+}
+
+#collapsable-nav > ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.menu-type {
+	background-color: #1A9A98;
+	margin-bottom: 20px;
+	height: 999px;
+	padding: 1em;
+}
+
+.menu-type > .title {
+	margin-top: -10px;
+	font-size: 1.5em;
+}
+
+.menu-type > .description {
+	margin-top: 10px;
+}
