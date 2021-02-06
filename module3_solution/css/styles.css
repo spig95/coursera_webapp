@@ -44,7 +44,6 @@
 .menu-type > .title {
 	margin-top: -10px;
 	font-size: 1.5em;
-	overflow: auto;
 }
 
 .menu-type > .description {
